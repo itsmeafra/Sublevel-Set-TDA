@@ -13,6 +13,3 @@
   year={2020}
 }
 ```
-### Links to paper and supplementary: 
-
-[Paper](https://arxiv.org/abs/1807.10400) 
