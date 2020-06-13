@@ -83,7 +83,7 @@ for i in range(50):
     #plt.figure(num = 1, figsize = [10, 10])
     plt.plot(t, x_normal-np.mean(x_normal))
     
-    filename = "./Dummy_Dataset/Normal_Distortion/normal_sample_" + str(i)
+    filename = "./Dummy_Dataset/Normal_Distortion/normal_sample_" + str(i) + ".mat"
     
     sio.savemat(filename, dict([('x', x_normal)]))
 
@@ -113,7 +113,7 @@ for i in range(20):
     #plt.figure(num = 1, figsize = [10, 10])
     plt.plot(t, x_more_noise-np.mean(x_more_noise))
     
-    filename = "./Dummy_Dataset/Increased_Distortion/increased_sample_" + str(i)
+    filename = "./Dummy_Dataset/Increased_Distortion/increased_sample_" + str(i) + ".mat"
         
     sio.savemat(filename, dict([('x', x_more_noise)]))
 
