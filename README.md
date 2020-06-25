@@ -14,18 +14,18 @@
 }
 ```
 
-## Topological Descriptors for Parkinson’s Disease Classification and Regression Analysis
+# Topological Descriptors for Parkinson’s Disease Classification and Regression Analysis
 
  This repository contains sample code for understanding the process of persistence image extraction referenced in the paper. 
 
  This file contains information on the function of each of the files and folders in the repository. At the end of the document, you can find some troubleshooting information. 
 
-# Primary Files:
+## Primary Files:
 
  The most important files to use to understand the proposed method are *sublevel\_set\_TDA.ipynb* and *Sublevel-Set-TDA.py*. In these files, we utilize sample signals meant to mimic different classes of subjects to run through the proposed method. We process the data in the same way we would real-world data. The *sublevel\_set_TDA.ipynb* is meant to be a visual aid using only a couple sample signals, while the *Sublevel-Set-TDA.py* script is meant to analyze a full dataset.
 Refer to the “Files” section for more detailed information about the contents of the repository, including these primary files.
 
-# Files:
+## Files:
 
 **sublevel\_set\_TDA.ipynb** : Jupyter Notebook script designed to familiarize the user with the method of persistence diagram and persistence image extraction. A couple of sample signals are used, and visuals are provided to aid in this learning process. A more complex example of persistence diagram extraction, using _sample\_signal.mat_, is provided at the end of the script. 
  
@@ -55,7 +55,7 @@ Refer to the “Files” section for more detailed information about the content
  
  **Paper Conference Video.pdf**: EMBC Conference presentation video file 
 
-# Required Packages:
+## Required Packages:
  The following is a list of required packages for the code to run. In parenthesis, the version used when creating this repository is included. 
  
 numpy _(version 1.15.4)_
@@ -74,11 +74,11 @@ os
 
 sys 
 
-# Trouble Shooting
+## Trouble Shooting
  If any of your code fails to run, please check the version of your numpy and persim packages. A specific function that is used in persim (which is not developed by us) utilizes an old version of numpy that may not work if you have a newer version of numpy installed. The version used to develop the repository are listed in the “Packages” section. Also note that reinstalling persim will update your numpy to the most recent version of numpy. Therefore, if you have to move to a different version of numpy, do so after installing persim. 
  
 You can use the command “pip list” to view your current package versions. 
 
-# Link to Paper:
+## Link to Paper:
 [Topological Descriptors for Parkinson's Disease Classification and Regression Analysis] (https://arxiv.org/abs/2004.07384)
 
