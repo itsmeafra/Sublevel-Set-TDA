@@ -22,7 +22,7 @@
 
 ## Primary Files:
 
- The most important files to use to understand the proposed method are *sublevel\_set\_TDA.ipynb* and *Sublevel-Set-TDA.py*. In these files, we utilize sample signals meant to mimic different classes of subjects to run through the proposed method. We process the data in the same way we would real-world data. The *sublevel\_set_TDA.ipynb* is meant to be a visual aid using only a couple sample signals, while the *Sublevel-Set-TDA.py* script is meant to analyze a full dataset.
+ The most important files to use to understand the proposed method are [sublevel\_set\_TDA.ipynb](https://github.com/itsmeafra/Sublevel-Set-TDA/blob/master/sublevel_set_TDA.ipynb) and [Sublevel-Set-TDA.py](https://github.com/itsmeafra/Sublevel-Set-TDA/blob/master/Sublevel-Set-TDA.py). In these files, we utilize sample signals meant to mimic different classes of subjects to run through the proposed method. We process the data in the same way we would real-world data. The *sublevel\_set_TDA.ipynb* is meant to be a visual aid using only a couple sample signals, while the *Sublevel-Set-TDA.py* script is meant to analyze a full dataset.
 Refer to the “Files” section for more detailed information about the contents of the repository, including these primary files.
 
 ## Files:
