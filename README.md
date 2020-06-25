@@ -53,7 +53,7 @@ Refer to the “Files” section for more detailed information about the content
  
  [Paper Conference Video.pptx](https://github.com/itsmeafra/Sublevel-Set-TDA/blob/master/Paper%20Conference%20Video.pptx): EMBC Conference presentation PowerPoint slides 
  
- [Paper Conference Video.pdf](https://github.com/itsmeafra/Sublevel-Set-TDA/blob/master/Paper%20Conference%20Video.pdf): EMBC Conference presentation video file 
+ [Paper Conference Video.pdf](https://github.com/itsmeafra/Sublevel-Set-TDA/blob/master/Paper%20Conference%20Video.pdf): EMBC Conference presentation PDF (of slides) 
 
 ## Required Packages:
  The following is a list of required packages for the code to run. In parenthesis, the version used when creating this repository is included. 
