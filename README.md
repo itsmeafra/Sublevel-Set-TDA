@@ -27,33 +27,33 @@ Refer to the “Files” section for more detailed information about the content
 
 ## Files:
 
-**sublevel\_set\_TDA.ipynb** : Jupyter Notebook script designed to familiarize the user with the method of persistence diagram and persistence image extraction. A couple of sample signals are used, and visuals are provided to aid in this learning process. A more complex example of persistence diagram extraction, using _sample\_signal.mat_, is provided at the end of the script. 
+[sublevel\_set\_TDA.ipynb](https://github.com/itsmeafra/Sublevel-Set-TDA/blob/master/sublevel_set_TDA.ipynb) : Jupyter Notebook script designed to familiarize the user with the method of persistence diagram and persistence image extraction. A couple of sample signals are used, and visuals are provided to aid in this learning process. A more complex example of persistence diagram extraction, using _sample\_signal.mat_, is provided at the end of the script. 
  
- **Sublevel-Set-TDA.py**: Python script that takes information from the _Dummy\_Dataset_ to exemplify the proposed method. Preprocesses all of the data in the _Dummy\_Dataset_, creates persistence diagrams from the processed signals, and then creates persistence images from the persistence diagrams. The images are then run through an SVM for classification. The persistence images could also be used in regression tasks. With the current settings, SVM classification is 100% because this is merely meant to be an exercise in how to implement the proposed method rather than an indication of real-world accuracy values. 
+ [Sublevel-Set-TDA.py](https://github.com/itsmeafra/Sublevel-Set-TDA/blob/master/Sublevel-Set-TDA.py): Python script that takes information from the _Dummy\_Dataset_ to exemplify the proposed method. Preprocesses all of the data in the _Dummy\_Dataset_, creates persistence diagrams from the processed signals, and then creates persistence images from the persistence diagrams. The images are then run through an SVM for classification. The persistence images could also be used in regression tasks. With the current settings, SVM classification is 100% because this is merely meant to be an exercise in how to implement the proposed method rather than an indication of real-world accuracy values. 
  
-**utils.py**: Python script that contains helper functions that are used in the _Sublevel-Set-TDA.py_ and _sublevel\_set\_TDA.ipynb_ files. 
+[utils.py](https://github.com/itsmeafra/Sublevel-Set-TDA/blob/master/utils.py): Python script that contains helper functions that are used in the _Sublevel-Set-TDA.py_ and _sublevel\_set\_TDA.ipynb_ files. 
  
- **Create\_Dummy\_Dataset.py**: Python script to enable the user to create a collection of their own sample signals from which to test on. This script was used to create the signals in the _Dummy\_Dataset_ folder. 
+ [Create\_Dummy\_Dataset.py](https://github.com/itsmeafra/Sublevel-Set-TDA/blob/master/Create_Dummy_Dataset.py): Python script to enable the user to create a collection of their own sample signals from which to test on. This script was used to create the signals in the _Dummy\_Dataset_ folder. 
  
-**Dummy\_Dataset**: Folder containing sample signals to highlight the method explained in the paper. Contains 50 signals with an average amount of distortion in the _Normal\_Distortion_ folder, and 30 signals with heightened distortion in the _Increased\_Distortion_ folder.  
+[Dummy\_Dataset](https://github.com/itsmeafra/Sublevel-Set-TDA/tree/master/Dummy_Dataset): Folder containing sample signals to highlight the method explained in the paper. Contains 50 signals with an average amount of distortion in the _Normal\_Distortion_ folder, and 30 signals with heightened distortion in the _Increased\_Distortion_ folder.  
  
- **Mean\_Normalized\_Signals**: Folder containing the same signals in the _Dummy\_Dataset_, however, the signals have been processed to be mean normalized. 
+ [Mean\_Normalized\_Signals](https://github.com/itsmeafra/Sublevel-Set-TDA/tree/master/Mean_Normalized_Signals): Folder containing the same signals in the _Dummy\_Dataset_, however, the signals have been processed to be mean normalized. 
  
- **Range\_Enforced\_Signals**: Folder containing the same signals as in the _Mean\_Normalized\_Signals_, however, the signals y-values have been enforced to lie between [-1, 1] 
+ [Range\_Enforced\_Signals](https://github.com/itsmeafra/Sublevel-Set-TDA/tree/master/Range_Enforced_Signals): Folder containing the same signals as in the _Mean\_Normalized\_Signals_, however, the signals y-values have been enforced to lie between [-1, 1] 
  
- **Persistence\_Diagrams**: Folder containing Persistence Diagrams extracted using the signals in the _Range\_Enforced\_Signals_ folder. 
+ [Persistence\_Diagrams](https://github.com/itsmeafra/Sublevel-Set-TDA/tree/master/Persistence_Diagrams): Folder containing Persistence Diagrams extracted using the signals in the _Range\_Enforced\_Signals_ folder. 
  
- **Persistence_Images**: Folder containing Persistence Images extracted from the _Persistence\_Diagrams_ folder, and using parameters specified by the _Sublevel-Set-TDA.py_ script 
+ [Persistence\_Images](https://github.com/itsmeafra/Sublevel-Set-TDA/tree/master/Persistence_Images): Folder containing Persistence Images extracted from the _Persistence\_Diagrams_ folder, and using parameters specified by the _Sublevel-Set-TDA.py_ script 
  
- **Helper\_Scripts**: Folder containing many of the same functions found in _utils.py_, however, they are separated into their own scripts  
+ [Helper\_Scripts](https://github.com/itsmeafra/Sublevel-Set-TDA/tree/master/Helper_Scripts): Folder containing many of the same functions found in _utils.py_, however, they are separated into their own scripts  
  
- **sample\_signal.mat**: A complex sample signal displayed in the _sublevel\_set\_TDA.ipynb_ script. The purpose of this signal is to highlight many of the different kinds of pairings that are possible when Persistence Diagrams are extracted. 
+ [sample\_signal.mat](https://github.com/itsmeafra/Sublevel-Set-TDA/blob/master/sample_signal.mat): A complex sample signal displayed in the _sublevel\_set\_TDA.ipynb_ script. The purpose of this signal is to highlight many of the different kinds of pairings that are possible when Persistence Diagrams are extracted. 
  
  **jpg/png files**: Supplementary image files for _sample\_signal.mat_ 
  
- **Paper Conference Video.pptx**: EMBC Conference presentation PowerPoint slides 
+ [Paper Conference Video.pptx](https://github.com/itsmeafra/Sublevel-Set-TDA/blob/master/Paper%20Conference%20Video.pptx): EMBC Conference presentation PowerPoint slides 
  
- **Paper Conference Video.pdf**: EMBC Conference presentation video file 
+ [Paper Conference Video.pdf](https://github.com/itsmeafra/Sublevel-Set-TDA/blob/master/Paper%20Conference%20Video.pdf): EMBC Conference presentation video file 
 
 ## Required Packages:
  The following is a list of required packages for the code to run. In parenthesis, the version used when creating this repository is included. 
@@ -80,5 +80,5 @@ sys
 You can use the command “pip list” to view your current package versions. 
 
 ## Link to Paper:
-[Topological Descriptors for Parkinson's Disease Classification and Regression Analysis] (https://arxiv.org/abs/2004.07384)
+[Topological Descriptors for Parkinson's Disease Classification and Regression Analysis](https://arxiv.org/abs/2004.07384)
 
