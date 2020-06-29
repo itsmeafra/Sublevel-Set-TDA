@@ -1,17 +1,3 @@
->Nawar, A., Rahman, F., Krishnamurthy, N., Som, A. and Turaga, P.,
-*Topological Descriptors for Parkinson's Disease Classification and Regression Analysis.*
-[arXiv preprint arXiv:2004.07384](https://arxiv.org/abs/2004.07384)., 2020. 
-
->Bibtex:
-```
-@article{nawar2020topological,
-  title={Topological Descriptors for Parkinson's Disease Classification and Regression Analysis},
-  author={Nawar, Afra and Rahman, Farhan and Krishnamurthi, Narayanan and Som, Anirudh and Turaga, Pavan},
-  journal={arXiv preprint arXiv:2004.07384},
-  year={2020}
-}
-```
-
 # Topological Descriptors for Parkinson’s Disease Classification and Regression Analysis
 
  This repository contains sample code for understanding the process of persistence image extraction referenced in the paper. 
@@ -79,4 +65,18 @@ You can use the command “pip list” to view your current package versions.
 
 ## Link to Paper:
 [Topological Descriptors for Parkinson's Disease Classification and Regression Analysis](https://arxiv.org/abs/2004.07384)
+
+>Nawar, A., Rahman, F., Krishnamurthy, N., Som, A. and Turaga, P.,
+*Topological Descriptors for Parkinson's Disease Classification and Regression Analysis.*
+[arXiv preprint arXiv:2004.07384](https://arxiv.org/abs/2004.07384)., 2020. 
+
+>Bibtex:
+```
+@article{nawar2020topological,
+  title={Topological Descriptors for Parkinson's Disease Classification and Regression Analysis},
+  author={Nawar, Afra and Rahman, Farhan and Krishnamurthi, Narayanan and Som, Anirudh and Turaga, Pavan},
+  journal={arXiv preprint arXiv:2004.07384},
+  year={2020}
+}
+```
 
