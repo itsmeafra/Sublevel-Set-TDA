@@ -1,6 +1,6 @@
 # Topological Descriptors for Parkinson’s Disease Classification and Regression Analysis
 
- This repository contains sample code for understanding the process of persistence image extraction referenced in the paper. 
+ This repository contains sample code for understanding the process of persistence image extraction referenced in the [paper](https://arxiv.org/abs/2004.07384). 
 
  This file contains information on the function of each of the files and folders in the repository. At the end of the document, you can find some troubleshooting information. 
 
